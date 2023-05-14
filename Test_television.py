@@ -21,8 +21,6 @@ television1.turn_on()
 television1.set_channel(30)
 # Set the volume of tv 1 to 3
 television1.set_volume(3)
-# Print the TV 1 status
-print("tv1's channel is",television1.get_channel(),"and volume level is",television1.get_volume())
 
 # Create TV 2
 television2 = TV()
@@ -32,8 +30,6 @@ television2.turn_on()
 television2.set_channel(3)
 # Set the volume of TV 2 to 2
 television2.set_volume(2)
-# Print the TV 2 status
-print("tv2's channel is",television2.get_channel(),"and volume level is",television2.get_volume())
 
 # Set up font for text rendering
 font = pygame.font.Font(None, 36)
@@ -48,3 +44,8 @@ while running:
 
     # Clear the screen
     screen.fill((255, 255, 255))
+
+    # Render the TV status text
+    text1 = font.render("tv1's channel is " + str(television1.get_channel()) + " and volume level is " + str(television1.get_volume()), True, (0, 0, 0))
+    text2 = font.render("tv2's channel is " + str(television2.get_channel()) + " and volume level is " + str(television2.get_volume()), True, (0, 0, 0))
+    
