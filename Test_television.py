@@ -1,5 +1,7 @@
 # Ella Lureen C. Calugay | Assignment 6 | UML Class Diagram
 
+from Television import TV
+
 # Pseudo code
 # Create TV 1
 # Turn on TV 1
