@@ -37,3 +37,7 @@ print("tv2's channel is",television2.get_channel(),"and volume level is",televis
 
 # Set up font for text rendering
 font = pygame.font.Font(None, 36)
+
+# Main loop
+running = True
+while running:
