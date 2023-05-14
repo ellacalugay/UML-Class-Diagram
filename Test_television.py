@@ -6,6 +6,12 @@ from Television import TV
 # Initialize Pygame
 pygame.init()
 
+# Set up the Pygame window
+width = 500
+height = 350
+screen = pygame.display.set_mode((width, height))
+pygame.display.set_caption("TV Status")
+
 # Pseudo code
 # Create TV 1
 television1 = TV()
