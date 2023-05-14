@@ -7,8 +7,8 @@ from Television import TV
 pygame.init()
 
 # Set up the Pygame window
-width = 500
-height = 350
+width = 640
+height = 480
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("TV Status")
 
