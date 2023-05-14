@@ -34,3 +34,6 @@ television2.set_channel(3)
 television2.set_volume(2)
 # Print the TV 2 status
 print("tv2's channel is",television2.get_channel(),"and volume level is",television2.get_volume())
+
+# Set up font for text rendering
+font = pygame.font.Font(None, 36)
