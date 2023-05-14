@@ -21,4 +21,5 @@ television2.turn_on()
 # Set the channel of TV 2 to 3
 television2.set_channel(3)
 # Set the volume of TV 2 to 2
+television2.set_volume(2)
 # Print the TV 2 status
