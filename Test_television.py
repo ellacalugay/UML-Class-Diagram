@@ -45,3 +45,6 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+
+    # Clear the screen
+    screen.fill((255, 255, 255))
