@@ -35,5 +35,11 @@ class TV:
     def set_volume(self, volume_level):
         if self.volume_level >= 1 and volume_level <= 7:
             self.volume_level = volume_level
-            
+
+    # Create a channel up method
+    def channel_up(self):
+        if self.channel < 120:
+            self.channel += 1
+        else:
+            self.channel=1        
 # End of code.
