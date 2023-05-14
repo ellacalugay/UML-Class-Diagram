@@ -12,6 +12,7 @@ television1.set_channel(30)
 # Set the volume of tv 1 to 3
 television1.set_volume(3)
 # Print the TV 1 status
+print("tv1's channel is",television1.get_channel(),"and volume level is",television1.get_volume())
 
 # Create TV 2
 # Turn on TV 2
