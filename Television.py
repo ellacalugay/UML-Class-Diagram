@@ -9,4 +9,8 @@ class TV:
         self.volume_level=1
         self.switch_button=False
 # List all the methods that are needed
+    # method to turn on the tv
+    def turn_on(self):
+        self.switch_button=True
+        
 # End of code.
