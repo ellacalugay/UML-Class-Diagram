@@ -23,3 +23,4 @@ television2.set_channel(3)
 # Set the volume of TV 2 to 2
 television2.set_volume(2)
 # Print the TV 2 status
+print("tv2's channel is",television2.get_channel(),"and volume level is",television2.get_volume())
