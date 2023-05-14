@@ -56,5 +56,12 @@ class TV:
             self.channel += 1
         else:
             self.channel = 1
-            
+
+    # Create a volume down method
+    def volume_down(self):
+        if self.channel > 1:
+            self.channel -= 1
+        else:
+            self.channel = 7
+
 # End of code.
