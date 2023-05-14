@@ -1,5 +1,6 @@
 # Ella Lureen C. Calugay | Assignment 6 | UML Class Diagram
 
+import pygame
 from Television import TV
 
 # Pseudo code
