@@ -52,3 +52,8 @@ while running:
     # Place the text in the center of the screen.
     text1_rect = text1.get_rect(center=(width/2, height/2 - 20))
     text2_rect = text2.get_rect(center=(width/2, height/2 + 20))
+
+    # Display the text onto the screen
+    screen.fill((255, 182, 193))
+    screen.blit(text1, text1_rect)
+    screen.blit(text2, text2_rect)
