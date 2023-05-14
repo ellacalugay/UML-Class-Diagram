@@ -50,4 +50,11 @@ class TV:
         else:
             self.channel = 120
 
+    # Create a volume up method
+    def volume_up(self):
+        if self.channel < 7:
+            self.channel += 1
+        else:
+            self.channel = 1
+            
 # End of code.
