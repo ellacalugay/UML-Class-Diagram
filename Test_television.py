@@ -60,3 +60,6 @@ while running:
 
     # Update the screen
     pygame.display.flip()
+
+# Quit Pygame
+pygame.quit()
