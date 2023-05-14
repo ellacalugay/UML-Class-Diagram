@@ -27,4 +27,8 @@ class TV:
         if self.switch_button >= 1 and channel <= 120:
              self.channel = channel
 
+    # Create a get volume method
+    def get_volume(self):
+        return self.volume_level
+
 # End of code.
