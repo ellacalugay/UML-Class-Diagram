@@ -15,6 +15,7 @@ television1.set_volume(3)
 print("tv1's channel is",television1.get_channel(),"and volume level is",television1.get_volume())
 
 # Create TV 2
+television2 = TV()
 # Turn on TV 2
 # Set the channel of TV 2 to 3
 # Set the volume of TV 2 to 2
