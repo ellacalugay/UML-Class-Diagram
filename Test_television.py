@@ -49,3 +49,6 @@ while running:
     text1 = font.render("tv1's channel is " + str(television1.get_channel()) + " and volume level is " + str(television1.get_volume()), True, (0, 0, 0))
     text2 = font.render("tv2's channel is " + str(television2.get_channel()) + " and volume level is " + str(television2.get_volume()), True, (0, 0, 0))
     
+    # Place the text in the center of the screen.
+    text1_rect = text1.get_rect(center=(width/2, height/2 - 20))
+    text2_rect = text2.get_rect(center=(width/2, height/2 + 20))
