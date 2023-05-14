@@ -3,6 +3,9 @@
 import pygame
 from Television import TV
 
+# Initialize Pygame
+pygame.init()
+
 # Pseudo code
 # Create TV 1
 television1 = TV()
