@@ -10,6 +10,7 @@ television1.turn_on()
 # Set the channel of TV 1 to 30
 television1.set_channel(30)
 # Set the volume of tv 1 to 3
+television1.set_volume(3)
 # Print the TV 1 status
 
 # Create TV 2
