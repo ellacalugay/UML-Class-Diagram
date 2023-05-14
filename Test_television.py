@@ -57,3 +57,6 @@ while running:
     screen.fill((255, 182, 193))
     screen.blit(text1, text1_rect)
     screen.blit(text2, text2_rect)
+
+    # Update the screen
+    pygame.display.flip()
