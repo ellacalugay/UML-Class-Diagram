@@ -4,8 +4,9 @@ from Television import TV
 
 # Pseudo code
 # Create TV 1
-television1 =  TV()
+television1 = TV()
 # Turn on TV 1
+television1.turn_on()
 # Set the channel of TV 1 to 30
 # Set the volume of tv 1 to 3
 # Print the TV 1 status
