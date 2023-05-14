@@ -21,5 +21,10 @@ class TV:
     # Create a get channel method
     def get_channel(self):
         return self.channel
+    
+    # Create a set channel method
+    def set_channel(self, channel):
+        if self.switch_button >= 1 and channel <= 120:
+             self.channel = channel
 
 # End of code.
